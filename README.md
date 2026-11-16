@@ -7,7 +7,11 @@ The user places a rectangular footprint on the surface. A pyramid joins the foot
 and the surface cells inside that pyramid are extracted as an independent patch. The patch can optionally be colored
 by the clearance of a straight path from each cell to the target with respect to obstacle models.
 
-![Screenshot](Screenshots/1.png)
+<p align="center">
+  <img src="Screenshots/demo.gif" alt="Demo: placing the pyramid and dragging the handles, with the patch updating live" width="450">
+</p>
+
+<p align="center"><em>In this demo, the surface is a skin mesh and the target is a tumor: the user interactively selects an entry region on the skin to visualize and plan a path to the tumor.</em></p>
 
 ## Features
 
